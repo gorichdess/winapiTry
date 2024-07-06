@@ -130,7 +130,15 @@
     <ClCompile Include="SoftwareMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="3DEngine.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="SoftwareDefinishion.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winapiTry.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Users\катя\Pictures\фотошоп\Graph1.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
